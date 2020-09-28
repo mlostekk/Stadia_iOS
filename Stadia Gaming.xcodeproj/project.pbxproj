@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44A4D12BEF221344CFBD2C95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A4D674C2A495D3516D7C7E /* SceneDelegate.swift */; };
+		44A4D13EB9546905BB831FE7 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A4DB6670C1FB7F2ECB38EC /* Controller.swift */; };
+		44A4D3023FB43ED72A39E92C /* WebViewControllerBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A4D866A697BA8A262A2C12 /* WebViewControllerBridge.swift */; };
+		44A4D46F3C6EF7F0A8EE5A18 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A4DFD8355E0F8D954B20D7 /* Config.swift */; };
+		44A4D60A4742EE8C96A01D75 /* WKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A4D3C3D013F60D1EB00510 /* WKWebView.swift */; };
+		44A4DB42D46D617CC89B69DD /* GCExtendedGamepad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A4D863C4B0FAC623CF16AD /* GCExtendedGamepad.swift */; };
+		44A4DEA2E97DC39B194D3570 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A4DF15BEA0460C0B7C06BD /* AppDelegate.swift */; };
+		E776A7252521CF3300596EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E776A7242521CF3300596EAE /* ViewController.swift */; };
+		E776A7282521CF3300596EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E776A7262521CF3300596EAE /* Main.storyboard */; };
+		E776A72A2521CF3400596EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E776A7292521CF3400596EAE /* Assets.xcassets */; };
+		E776A72D2521CF3400596EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E776A72B2521CF3400596EAE /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44A4D3C3D013F60D1EB00510 /* WKWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebView.swift; sourceTree = "<group>"; };
+		44A4D674C2A495D3516D7C7E /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44A4D863C4B0FAC623CF16AD /* GCExtendedGamepad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCExtendedGamepad.swift; sourceTree = "<group>"; };
+		44A4D866A697BA8A262A2C12 /* WebViewControllerBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewControllerBridge.swift; sourceTree = "<group>"; };
+		44A4DB6670C1FB7F2ECB38EC /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		44A4DF15BEA0460C0B7C06BD /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44A4DFD8355E0F8D954B20D7 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		E776A71D2521CF3300596EAE /* Stadia Gaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stadia Gaming.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E776A7242521CF3300596EAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E776A7272521CF3300596EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E776A7292521CF3400596EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E776A72C2521CF3400596EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E776A72E2521CF3400596EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E776A71A2521CF3300596EAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44A4D63087F36A566C8EEB54 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				44A4D3C3D013F60D1EB00510 /* WKWebView.swift */,
+				44A4D863C4B0FAC623CF16AD /* GCExtendedGamepad.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		44A4D856BCC6F799FD980401 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				44A4DB6670C1FB7F2ECB38EC /* Controller.swift */,
+				44A4DFD8355E0F8D954B20D7 /* Config.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		44A4DBA922CD726FAB8950D3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				44A4D674C2A495D3516D7C7E /* SceneDelegate.swift */,
+				44A4DF15BEA0460C0B7C06BD /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E776A7142521CF3300596EAE = {
+			isa = PBXGroup;
+			children = (
+				E776A71F2521CF3300596EAE /* Stadia Gaming */,
+				E776A71E2521CF3300596EAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E776A71E2521CF3300596EAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E776A71D2521CF3300596EAE /* Stadia Gaming.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E776A71F2521CF3300596EAE /* Stadia Gaming */ = {
+			isa = PBXGroup;
+			children = (
+				44A4DBA922CD726FAB8950D3 /* App */,
+				44A4D63087F36A566C8EEB54 /* Extension */,
+				44A4D856BCC6F799FD980401 /* Model */,
+				E776A7292521CF3400596EAE /* Assets.xcassets */,
+				E776A72E2521CF3400596EAE /* Info.plist */,
+				E776A7242521CF3300596EAE /* ViewController.swift */,
+				44A4D866A697BA8A262A2C12 /* WebViewControllerBridge.swift */,
+				E776A72B2521CF3400596EAE /* LaunchScreen.storyboard */,
+				E776A7262521CF3300596EAE /* Main.storyboard */,
+			);
+			path = "Stadia Gaming";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E776A71C2521CF3300596EAE /* Stadia Gaming */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E776A7312521CF3400596EAE /* Build configuration list for PBXNativeTarget "Stadia Gaming" */;
+			buildPhases = (
+				E776A7192521CF3300596EAE /* Sources */,
+				E776A71A2521CF3300596EAE /* Frameworks */,
+				E776A71B2521CF3300596EAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stadia Gaming";
+			productName = "Stadia Gaming";
+			productReference = E776A71D2521CF3300596EAE /* Stadia Gaming.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E776A7152521CF3300596EAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					E776A71C2521CF3300596EAE = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = E776A7182521CF3300596EAE /* Build configuration list for PBXProject "Stadia Gaming" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E776A7142521CF3300596EAE;
+			productRefGroup = E776A71E2521CF3300596EAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E776A71C2521CF3300596EAE /* Stadia Gaming */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E776A71B2521CF3300596EAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E776A72D2521CF3400596EAE /* LaunchScreen.storyboard in Resources */,
+				E776A72A2521CF3400596EAE /* Assets.xcassets in Resources */,
+				E776A7282521CF3300596EAE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E776A7192521CF3300596EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E776A7252521CF3300596EAE /* ViewController.swift in Sources */,
+				44A4D13EB9546905BB831FE7 /* Controller.swift in Sources */,
+				44A4D12BEF221344CFBD2C95 /* SceneDelegate.swift in Sources */,
+				44A4DEA2E97DC39B194D3570 /* AppDelegate.swift in Sources */,
+				44A4D60A4742EE8C96A01D75 /* WKWebView.swift in Sources */,
+				44A4D3023FB43ED72A39E92C /* WebViewControllerBridge.swift in Sources */,
+				44A4DB42D46D617CC89B69DD /* GCExtendedGamepad.swift in Sources */,
+				44A4D46F3C6EF7F0A8EE5A18 /* Config.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E776A7262521CF3300596EAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E776A7272521CF3300596EAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E776A72B2521CF3400596EAE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E776A72C2521CF3400596EAE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E776A72F2521CF3400596EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E776A7302521CF3400596EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E776A7322521CF3400596EAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Stadia Gaming/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nomad5.Stadia-Gaming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E776A7332521CF3400596EAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Stadia Gaming/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nomad5.Stadia-Gaming";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E776A7182521CF3300596EAE /* Build configuration list for PBXProject "Stadia Gaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E776A72F2521CF3400596EAE /* Debug */,
+				E776A7302521CF3400596EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E776A7312521CF3400596EAE /* Build configuration list for PBXNativeTarget "Stadia Gaming" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E776A7322521CF3400596EAE /* Debug */,
+				E776A7332521CF3400596EAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E776A7152521CF3300596EAE /* Project object */;
+}
